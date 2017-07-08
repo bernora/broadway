@@ -3,16 +3,20 @@ body {
   font-family: helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav a {
   font-weight: bold;
+}
+
+nav a, .sectionTitle, .footer {
+  color: white;
 }
 
 nav li {
   list-style: none;
 }
 
-a, .sectionTitle, .footer {
-  color: white;
+nav a {
+  font-size: 18px;
 }
 
 .sectionTitle {
@@ -23,8 +27,8 @@ a, .sectionTitle, .footer {
   font-size: 70px;
 }
 
-.sectionTitle h2 {
-  font-size: 23px;
+.sectionTitle li{
+  padding: 5px;
 }
 
 .mainSection h2 {
@@ -41,6 +45,7 @@ a, .sectionTitle, .footer {
 
 .footer {
   background-color: dimgray;
+  font-size: 11px;
 }
 
 .footer ul {
